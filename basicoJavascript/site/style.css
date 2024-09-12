@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.container {
+  background-color: #23be59;
+  height: 120px;
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linha-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list-menu{
+  background-color: #13863b;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+li{
+  margin: 14px;
+  list-style: none;
+}
+li a{
+  color: #fff;
+}
+.linha-3{
+  width: 100%;
+  height: 200px;
+  padding: 100;
+  background-image: url("https://img.freepik.com/fotos-gratis/desfoque-abstrato-estudio-vazio-de-gradiente-verde-bem-use-como-modelo-de-site-de-fundo-de-relatorio-de-negocios_1258-107708.jpg");
+}
